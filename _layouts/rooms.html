@@ -1,0 +1,18 @@
+<html>
+  {% include head.html %}
+  <body>
+    <a-scene
+    link-collide>
+      {{ content }}
+      <a-entity id="camera"
+      position="0 0 2" 
+      movement-controls>
+      <a-camera 
+              id="head"
+              wasd-controls look-controls>
+      <a-box aabb-collider="objects: .link"> </a-box>
+      </a-camera>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
