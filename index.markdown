@@ -1,7 +1,7 @@
 ---
 layout: rooms
 ---
-<a-entity environment="ppreset: forest; groundColor: #445; grid: cross"></a-entity>
+<a-entity environment="preset: egypt"></a-entity>
 <a-entity
     arrange>
     {% assign rooms = site.rooms %}
